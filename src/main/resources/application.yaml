@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+# 生产环境需设置为 false
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
+# 生产环境需设置为 false
+knife4j:
+  enable: true
