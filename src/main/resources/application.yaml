@@ -8,4 +8,5 @@ springfox:
       enabled: true
 # 生产环境需设置为 false
 knife4j:
-  enable: true
+  enable: true    # 是否开启Knife4j增强模式，默认值为false
+  production: false # 是否开启生产环境保护策略, 默认值为false
